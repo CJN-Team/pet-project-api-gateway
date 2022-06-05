@@ -5,21 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pet.Project.Api.Gateway.API", "Pet.Project.Api.Gateway.API\Pet.Project.Api.Gateway.API.csproj", "{EDE7D35C-302B-44D6-93AE-C41857ADE4CC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pet.Project.Api.Gateway.Domain", "Pet.Project.Api.Gateway.Domain\Pet.Project.Api.Gateway.Domain.csproj", "{FAF4BCDE-6039-45E5-A546-4C61BF505719}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pet.Project.Api.Gateway.Infraestructure", "Pet.Project.Api.Gateway.Infraestructure\Pet.Project.Api.Gateway.Infraestructure.csproj", "{EBF34031-C1BC-41D7-A152-4040D193A884}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{25EA96F8-5EE9-44AC-B439-9E9F33C06151}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pet.Project.Api.Gateway.API.UnitTests", "Pet.Project.Api.Gateway.API.UnitTests\Pet.Project.Api.Gateway.API.UnitTests.csproj", "{6A81D428-16E5-4C39-9765-A2918997A250}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pet.Project.Api.Gateway.Domain.UnitTests", "Pet.Project.Api.Gateway.Domain.UnitTests\Pet.Project.Api.Gateway.Domain.UnitTests.csproj", "{CFBAE4ED-66EB-4D32-969E-30BEEB13F27F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pet.Project.Api.Gateway.Infraestructure.UnitTests", "Pet.Project.Api.Gateway.Infraestructure.UnitTests\Pet.Project.Api.Gateway.Infraestructure.UnitTests.csproj", "{07603E3B-53DF-4C25-88B8-71D2D24C48AD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05DE008D-3FF5-46FA-A03A-638921B10D2B}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{185DA481-C252-4451-BA7D-D25E5099A310}"
+	ProjectSection(SolutionItems) = preProject
+		Rules.ruleset = Rules.ruleset
 	EndProjectSection
 EndProject
 Global
@@ -32,34 +29,16 @@ Global
 		{EDE7D35C-302B-44D6-93AE-C41857ADE4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDE7D35C-302B-44D6-93AE-C41857ADE4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDE7D35C-302B-44D6-93AE-C41857ADE4CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FAF4BCDE-6039-45E5-A546-4C61BF505719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAF4BCDE-6039-45E5-A546-4C61BF505719}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAF4BCDE-6039-45E5-A546-4C61BF505719}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAF4BCDE-6039-45E5-A546-4C61BF505719}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EBF34031-C1BC-41D7-A152-4040D193A884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBF34031-C1BC-41D7-A152-4040D193A884}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBF34031-C1BC-41D7-A152-4040D193A884}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBF34031-C1BC-41D7-A152-4040D193A884}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6A81D428-16E5-4C39-9765-A2918997A250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A81D428-16E5-4C39-9765-A2918997A250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A81D428-16E5-4C39-9765-A2918997A250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A81D428-16E5-4C39-9765-A2918997A250}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFBAE4ED-66EB-4D32-969E-30BEEB13F27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFBAE4ED-66EB-4D32-969E-30BEEB13F27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFBAE4ED-66EB-4D32-969E-30BEEB13F27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFBAE4ED-66EB-4D32-969E-30BEEB13F27F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07603E3B-53DF-4C25-88B8-71D2D24C48AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07603E3B-53DF-4C25-88B8-71D2D24C48AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07603E3B-53DF-4C25-88B8-71D2D24C48AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07603E3B-53DF-4C25-88B8-71D2D24C48AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6A81D428-16E5-4C39-9765-A2918997A250} = {25EA96F8-5EE9-44AC-B439-9E9F33C06151}
-		{CFBAE4ED-66EB-4D32-969E-30BEEB13F27F} = {25EA96F8-5EE9-44AC-B439-9E9F33C06151}
-		{07603E3B-53DF-4C25-88B8-71D2D24C48AD} = {25EA96F8-5EE9-44AC-B439-9E9F33C06151}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66B5E153-ED89-4D59-92BF-683313E52668}
