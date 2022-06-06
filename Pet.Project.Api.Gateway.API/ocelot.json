@@ -1,20 +1,6 @@
 {
   "Routes": [
 
-    //Auth
-    {
-      "Key": "auth",
-      "UpstreamPathTemplate": "/api/auth",
-      "UpstreamHttpMethod": [ "GET" ],
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "jsonplaceholder.typicode.com",
-          "Port": 443
-        }
-      ],
-      "DownstreamPathTemplate": "/auth"
-    },
-
     //Profile
     {
       "Key": "profile",
@@ -26,7 +12,7 @@
           "Port": 443
         }
       ],
-      "DownstreamPathTemplate": "/profile",
+      "DownstreamPathTemplate": "/users",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer"
       }
